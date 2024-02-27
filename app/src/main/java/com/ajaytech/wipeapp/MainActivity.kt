@@ -1,4 +1,4 @@
-package me.lucky.duress
+package com.ajaytech.wipeapp
 
 import android.accessibilityservice.AccessibilityServiceInfo
 import android.content.Intent
@@ -15,9 +15,8 @@ import androidx.core.widget.doAfterTextChanged
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.tabs.TabLayout
-
-import me.lucky.duress.admin.DeviceAdminManager
-import me.lucky.duress.databinding.ActivityMainBinding
+import com.ajaytech.wipeapp.admin.DeviceAdminManager
+import com.ajaytech.wipeapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
