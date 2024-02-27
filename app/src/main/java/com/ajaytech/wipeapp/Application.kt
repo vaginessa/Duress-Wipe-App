@@ -1,4 +1,4 @@
-package me.lucky.duress
+package com.ajaytech.wipeapp
 
 import android.app.Application
 import com.google.android.material.color.DynamicColors

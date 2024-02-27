@@ -1,4 +1,4 @@
-package me.lucky.duress
+package com.ajaytech.wipeapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("me.lucky.duress", appContext.packageName)
+        assertEquals("com.ajaytech.wipeapp", appContext.packageName)
     }
 }

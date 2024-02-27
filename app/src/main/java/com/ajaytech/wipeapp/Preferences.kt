@@ -1,4 +1,4 @@
-package me.lucky.duress
+package com.ajaytech.wipeapp
 
 import android.content.Context
 import android.content.SharedPreferences

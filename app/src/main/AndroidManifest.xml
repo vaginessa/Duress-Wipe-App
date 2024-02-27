@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="me.lucky.duress">
+    package="com.ajaytech.wipeapp">
 
     <uses-feature android:name="android.software.device_admin" android:required="false" />
 
@@ -12,13 +12,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name=".Application"
+        android:name="com.ajaytech.wipeapp.Application"
         android:theme="@style/Theme.Duress"
         android:dataExtractionRules="@xml/data_extraction_rules"
         tools:targetApi="s">
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.ajaytech.wipeapp.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,7 +27,7 @@
         </activity>
 
         <service
-            android:name=".AccessibilityService"
+            android:name="com.ajaytech.wipeapp.AccessibilityService"
             android:exported="true"
             android:directBootAware="true"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
@@ -40,7 +40,7 @@
         </service>
 
         <receiver
-            android:name=".admin.DeviceAdminReceiver"
+            android:name="com.ajaytech.wipeapp.admin.DeviceAdminReceiver"
             android:permission="android.permission.BIND_DEVICE_ADMIN"
             android:exported="true">
             <meta-data android:name="android.app.device_admin"

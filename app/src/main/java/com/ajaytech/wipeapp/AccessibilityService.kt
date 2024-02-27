@@ -1,4 +1,4 @@
-package me.lucky.duress
+package com.ajaytech.wipeapp
 
 import android.accessibilityservice.AccessibilityService
 import android.accessibilityservice.AccessibilityServiceInfo
@@ -10,7 +10,7 @@ import android.content.IntentFilter
 import android.view.accessibility.AccessibilityEvent
 import java.lang.ref.WeakReference
 
-import me.lucky.duress.admin.DeviceAdminManager
+import com.ajaytech.wipeapp.admin.DeviceAdminManager
 
 class AccessibilityService : AccessibilityService() {
     companion object {
@@ -233,7 +233,7 @@ class AccessibilityService : AccessibilityService() {
     private fun wipeData() = try { admin.wipeData() } catch (exc: SecurityException) {}
 
     private class LockReceiver(
-        private val service: WeakReference<me.lucky.duress.AccessibilityService>,
+        private val service: WeakReference<com.ajaytech.wipeapp.AccessibilityService>,
     ) : BroadcastReceiver() {
         override fun onReceive(context: Context?, intent: Intent?) {
             if (intent?.action != Intent.ACTION_USER_PRESENT &&

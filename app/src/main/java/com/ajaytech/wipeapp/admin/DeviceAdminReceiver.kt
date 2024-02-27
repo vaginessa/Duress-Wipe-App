@@ -1,4 +1,4 @@
-package me.lucky.duress.admin
+package com.ajaytech.wipeapp.admin
 
 import android.app.admin.DeviceAdminReceiver
 
