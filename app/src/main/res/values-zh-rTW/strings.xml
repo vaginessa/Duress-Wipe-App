@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">緊急脅迫</string>
+    <string name="app_name">分散擦拭</string>
     <string name="service_unavailable_popup">服務無法使用</string>
     <string name="prominent_disclosure_title">重要訊息揭露</string>
     <string name="prominent_disclosure_message">這個APP使用無障礙服務來在鎖定螢幕上監聽脅迫密碼。當發現時會發送廣播訊息或清除裝置。</string>
